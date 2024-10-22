@@ -1,0 +1,123 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid red;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    border: solid black;
+    border-width: 1px;
+    height: 600px;
+    width: 400px;
+}
+
+/* Container of the last three buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+}
+
+/* Zero button spanning more space */
+.zero-button {
+    flex: 2;
+    border: solid black;
+    border-width: 1px;
+    height: 100%; /* Ensures it fills the container height */
+}
+
+.comma-button,
+.equals-button {
+    flex: 1;
+    height: 100%;
+    border: solid black;
+    border-width: 1px;
+}
+
+/* Container of the upper buttons */
+.upper-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center the buttons vertically */
+    width: 100%;
+    height: 15%;
+}
+
+/* Make sure upper buttons also fill height */
+.one-button,
+.two-button,
+.three-button,
+.plus-button {
+    flex: 1;
+    height: 100%; /* Ensures it fills the container height */
+    border: solid black;
+    border-width: 1px;
+}
+
+
+/* Container of the upper-buttons2 */
+.upper-buttons2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center the buttons vertically */
+    width: 100%;
+    height: 15%;
+}
+
+/* Make sure upper-buttons2 buttons also fill height */
+.four-button,
+.five-button,
+.six-button,
+.minus-button {
+    flex: 1;
+    height: 100%; /* Ensures it fills the container height */
+    border: solid black;
+    border-width: 1px;
+}
+
+/* Container of the upper-buttons3 */
+.upper-buttons3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center the buttons vertically */
+    width: 100%;
+    height: 15%;
+}
+
+/* Make sure upper-buttons3 buttons also fill height */
+.seven-button,
+.eight-button,
+.nine-button,
+.multiply-button {
+    flex: 1;
+    height: 100%; /* Ensures it fills the container height */
+    border: solid black;
+    border-width: 1px;
+}
+
+/* Container of the upper-buttons4 */
+.upper-buttons4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center the buttons vertically */
+    width: 100%;
+    height: 15%;
+}
+
+/* Make sure upper-buttons4 buttons also fill height */
+.clear-button,
+.plus-minus-button,
+.percent-button,
+.divide-button {
+    flex: 1;
+    height: 100%; /* Ensures it fills the container height */
+    border: solid black;
+    border-width: 1px;
+}
