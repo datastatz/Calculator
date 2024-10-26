@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid red;
+    background-color: aliceblue;
 }
 
 .container {
@@ -11,8 +11,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    border: solid black;
-    border-width: 1px;
+    border: solid rgb(15, 162, 247);
+    border-width: 40px;
     height: 600px;
     width: 400px;
 }
@@ -23,12 +23,11 @@ body {
     justify-content: space-between;
     width: 100%;
     height: 15%;
-    border: solid yellow;
 }
 
 /* Zero button spanning more space */
 .zero-button {
-    flex: 2;
+    flex: 2.17;
     border: solid black;
     border-width: 1px;
     height: 100%; /* Ensures it fills the container height */
@@ -49,7 +48,6 @@ body {
     align-items: center; /* Center the buttons vertically */
     width: 100%;
     height: 15%;
-    border: solid blue;
 }
 
 /* Make sure upper buttons also fill height */
@@ -71,7 +69,6 @@ body {
     align-items: center; /* Center the buttons vertically */
     width: 100%;
     height: 15%;
-    border: solid purple;
 }
 
 /* Make sure upper-buttons2 buttons also fill height */
@@ -92,7 +89,6 @@ body {
     align-items: center; /* Center the buttons vertically */
     width: 100%;
     height: 15%;
-    border: solid green;
 }
 
 /* Make sure upper-buttons3 buttons also fill height */
@@ -113,7 +109,7 @@ body {
     align-items: center; /* Center the buttons vertically */
     width: 100%;
     height: 15%;
-    border: solid red;
+  
 }
 
 /* Make sure upper-buttons4 buttons also fill height */
@@ -133,12 +129,23 @@ body {
     align-items: center; /* Center the buttons vertically */
     box-sizing: border-box;
     width: 100%;
-    height: 24%;
+    height: 26%;
     border: solid rgb(203, 212, 214);
     background-color: lightgray;
     text-align: right; /* Align text to the right */
     overflow: hidden; /* Hide overflow initially */
     white-space: nowrap; /* Prevent text from wrapping to a new line */
+    font-size: 60px;
 }
 
+button  {
+    font-style:italic, arial ;
+    font-weight: bold;
+    font-size: 30px;
+}
 
+button:hover {
+    background-color: transparent;
+    box-shadow: none;
+    color: cyan;
+}
