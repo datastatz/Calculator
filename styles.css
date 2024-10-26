@@ -23,6 +23,7 @@ body {
     justify-content: space-between;
     width: 100%;
     height: 15%;
+    border: solid yellow;
 }
 
 /* Zero button spanning more space */
@@ -48,6 +49,7 @@ body {
     align-items: center; /* Center the buttons vertically */
     width: 100%;
     height: 15%;
+    border: solid blue;
 }
 
 /* Make sure upper buttons also fill height */
@@ -69,6 +71,7 @@ body {
     align-items: center; /* Center the buttons vertically */
     width: 100%;
     height: 15%;
+    border: solid purple;
 }
 
 /* Make sure upper-buttons2 buttons also fill height */
@@ -89,6 +92,7 @@ body {
     align-items: center; /* Center the buttons vertically */
     width: 100%;
     height: 15%;
+    border: solid green;
 }
 
 /* Make sure upper-buttons3 buttons also fill height */
@@ -109,6 +113,7 @@ body {
     align-items: center; /* Center the buttons vertically */
     width: 100%;
     height: 15%;
+    border: solid red;
 }
 
 /* Make sure upper-buttons4 buttons also fill height */
@@ -121,3 +126,19 @@ body {
     border: solid black;
     border-width: 1px;
 }
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center the buttons vertically */
+    box-sizing: border-box;
+    width: 100%;
+    height: 24%;
+    border: solid rgb(203, 212, 214);
+    background-color: lightgray;
+    text-align: right; /* Align text to the right */
+    overflow: hidden; /* Hide overflow initially */
+    white-space: nowrap; /* Prevent text from wrapping to a new line */
+}
+
+
